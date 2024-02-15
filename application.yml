@@ -5,3 +5,8 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+okta:
+  oauth2:
+    issuer: https://dev-57064256.okta.com/oauth2/default
+    audience: api://default
